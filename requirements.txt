@@ -2,5 +2,5 @@ numpy
 streamlit
 pillow
 keras
-tensorflow
+# tensorflow
 h5py~=2.10.0
