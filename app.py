@@ -2,9 +2,9 @@ import streamlit as st
 from PIL import Image, ImageOps
 import numpy as np
 
-st.title("Image Classification with Google's Teachable Machine")
-st.header("Brain Tumor MRI Classification Example")
-st.text("Upload a brain MRI Image for image classification as tumor or no-tumor")
+st.title("Image Classification with Google's Teachable Machine Web Tool")
+st.header("Brain Tumor Detection from MRI Images")
+st.text("Upload a brain MRI Image for the model to tell if the Brain MRI is healthy or Not")
 
 from img_classification import teachable_machine_classification
 
