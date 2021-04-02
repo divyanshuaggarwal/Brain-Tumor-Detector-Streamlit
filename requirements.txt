@@ -3,4 +3,4 @@ streamlit
 pillow
 keras
 tensorflow
-h5py
+h5py~=2.10.0
